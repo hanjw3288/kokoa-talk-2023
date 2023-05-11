@@ -192,7 +192,7 @@ transition: all 0.3s ease-in-out;
 
  .reply input:focus {
   width: 98vw;
-  transform: translateX(-5.5%) translateY(-60px);
+  transform: translateX(-12%) translateY(-60px);
 }
 
 .reply:focus-within {
