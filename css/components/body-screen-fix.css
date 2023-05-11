@@ -1,0 +1,18 @@
+.body-screen-fix {
+  background-color: white;
+  }
+  
+  .body-screen-fix .screen-header,
+  .body-screen-fix .status-bar {
+    top:0;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+  }
+  .body-screen-fix .screen-header {
+    z-index: 1;
+  }
+.body-screen-fix .status-bar {
+    z-index: 2;
+  }
